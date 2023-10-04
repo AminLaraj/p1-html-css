@@ -3,15 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Goldman", cursive;
 }
 
+main {
+  flex: 1;
+}
+
+
 nav {
   display: flex;
+  position: sticky;
+  top: 0;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -21,36 +32,76 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
-nav ul {background: fixed;
+
+nav ul {
+  background: fixed;
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
-.background{
+
+.background {
   background-image: url("./img/background.jpeg");
-  background-position:  center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
 }
 
-footer {color: #00a8c7;
-font-size: 16px;
-font-family: "Goldman";}
+footer {
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  color: #00a8c7;
+  font-size: 16px;
+  font-family: "Goldman";
+  
+}
 
-h1 {font-weight: bold;}
+footer p {
+  padding: 10px;
+}
 
-.black {background-color: black;}
-.logo .background
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.logo .background p {
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+
