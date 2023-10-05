@@ -70,7 +70,7 @@ footer {
   color: #00a8c7;
   font-size: 16px;
   font-family: "Goldman";
-  
+
 }
 
 footer p {
@@ -100,8 +100,37 @@ h1 {
   float: left;
   margin-right: 10px;
 }
+
 .right {
   float: right;
   margin-left: 10px;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #00a8c7;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #E9E9E9;
+}
+
 
