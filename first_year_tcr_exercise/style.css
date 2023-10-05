@@ -121,6 +121,7 @@ h1 {
 
 .dropdown-content {
   display: none;
+  flex-direction: column;
   position: absolute;
   background-color: white;
   padding: 10px;
@@ -129,8 +130,10 @@ h1 {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
   background-color: #E9E9E9;
 }
 
-
+.dropdown a:hover {
+  background-color: yellow;
+}
