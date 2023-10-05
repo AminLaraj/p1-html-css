@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 1200px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.square {
+
+    background-color: blue;
+
+}
+
+.square2 {
+
+    background-color: black;
+
+}
+
+.square3 {
+
+    background-color: red;
+
+}
+
+.square4 {
+
+    background-color: green;
+
+}
